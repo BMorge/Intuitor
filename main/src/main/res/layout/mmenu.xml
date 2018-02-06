@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+             >
+
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:text="@string/play"
+            android:id="@+id/btnplay"
+            android:layout_marginTop="59dp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button android:layout_width="300dp" android:layout_height="200dp" android:text="@string/aboutgame"
+            android:id="@+id/btnaboutg"
+            android:layout_centerVertical="true" android:layout_alignStart="@+id/btnplay"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/volumebtn" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>
+

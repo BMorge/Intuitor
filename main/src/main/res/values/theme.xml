@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="MainTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:buttonStyle">@style/MainButton</item>
+        <item name="android:background">@drawable/backgrd1</item>
+    </style>
+
+    <style name="MainButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_main</item>
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">34dp</item>-->
+        <!--<item name="android:layout_weight">0.5</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:layout_margin">3dp</item>-->
+        <!--<item name="android:textSize">15sp</item>-->
+
+    </style>
+
+    <style name="QusetionTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:buttonStyle">@style/MainButton</item>
+        <item name="android:background">@drawable/backgrd2</item>
+    </style>
+
+    <style name="ZeroStyle" parent="@android:style/Theme.Light"/>
+
+</resources>

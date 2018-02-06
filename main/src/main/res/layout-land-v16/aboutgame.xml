@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textBestResult"
+            android:id="@+id/textBestResult" android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp" android:layout_marginLeft="25dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="555"
+            android:id="@+id/countBestResult" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textBestResult"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textGamePlayed"
+            android:id="@+id/textGamePlayed" android:layout_below="@+id/textBestResult"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1488"
+            android:id="@+id/countGamePlayed"
+            android:layout_below="@+id/textBestResult" android:layout_alignRight="@+id/countBestResult"
+            android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textVersionGame"
+            android:id="@+id/textVersionGame"
+            android:layout_below="@+id/textGamePlayed" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameversion"
+            android:id="@+id/countVersionGame"
+            android:layout_alignTop="@+id/textVersionGame" android:layout_alignRight="@+id/countGamePlayed"
+            android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textBankSize"
+            android:id="@+id/textBankSize" android:layout_below="@+id/textVersionGame"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@integer/countquestions"
+            android:id="@+id/countBankSize"
+            android:layout_below="@+id/countVersionGame" android:layout_alignRight="@+id/countVersionGame"
+            android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+
+
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textNameProgramer"
+            android:id="@+id/textNameProgramer" android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textProgramer"
+            android:id="@+id/textProgramer" android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textNameProgramer"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textNameContent"
+            android:id="@+id/textNameContent" android:layout_below="@+id/textNameProgramer"
+            android:layout_alignRight="@+id/textNameProgramer" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textContent"
+            android:id="@+id/textContent"
+            android:layout_below="@+id/textProgramer" android:layout_alignLeft="@+id/textProgramer"
+            android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textNamePainter"
+            android:id="@+id/textNamePainter" android:layout_below="@+id/textNameContent"
+            android:layout_alignRight="@+id/textNameContent" android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textPainter"
+            android:id="@+id/textPainter"
+            android:layout_below="@+id/textContent" android:layout_alignLeft="@+id/textContent"
+            android:textSize="20sp"
+            android:background="@drawable/nullscreen"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textAnotherSite"
+            android:id="@+id/textAnotherSite"
+            android:textSize="15sp"
+            android:background="@drawable/nullscreen" android:layout_alignParentBottom="true" android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

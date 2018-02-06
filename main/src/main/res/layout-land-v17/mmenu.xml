@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+             >
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play"
+            android:id="@+id/btnplay"
+            android:layout_centerVertical="true"
+            android:onClick="playscreen"
+            android:layout_toStartOf="@+id/button"
+            android:layout_marginEnd="30dp" android:textSize="40sp" android:layout_alignParentStart="false"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aboutgame"
+            android:id="@+id/btnaboutg"
+            android:onClick="aboutscreen"  android:layout_toEndOf="@+id/button"
+            android:layout_marginStart="30dp" android:layout_centerVertical="true" android:textSize="35sp"/>
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/volumebtn"
+            android:onClick="musicBtnClick"
+            android:background="@drawable/soundtrue"
+            android:layout_alignParentTop="true" android:layout_alignParentEnd="true"
+           />
+
+    <Button
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:id="@+id/button" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+              android:layout_marginTop="5dp"
+              android:textSize="30sp"
+              android:background="@drawable/nullscreen"
+              android:text="@string/textBestResult"
+              android:id="@+id/menutopresult"
+            />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="25sp"
+              android:background="@drawable/nullscreen"
+              android:id="@+id/ololoZahodiEsho"
+              android:layout_below="@+id/menutopresult" android:layout_centerHorizontal="true"/>
+    <com.bmorge.Intuitor.GifView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo2"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+
+    <!--<View android:layout_width="match_parent" android:layout_height="match_parent"-->
+            <!--style="@style/ZeroStyle" android:id="@+id/anim" android:background="@drawable/anim0logo"/>-->
+
+</RelativeLayout>
+

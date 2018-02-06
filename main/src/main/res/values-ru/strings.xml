@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gameversion">1.11</string>
+    <string name="app_name">Интуитор</string>
+    <string name="play">Играть</string>
+    <string name="aboutgame">Об Игре</string>
+    <string name="mistake">Вы ошиблись!</string>
+    <string name="youAreSure">Вы уверены?</string>
+    <string name="textBestResult">Ваш лучший результат:</string>
+    <string name="textGamePlayed">Всего игр сыграно:</string>
+    <string name="textVersionGame">Версия игры:</string>
+    <string name="textBankSize">Всего вопросов:</string>
+    <string name="textNameProgramer">Николай \"BMorge\" Крылов</string>
+    <string name="textProgramer">Разработчик:</string>
+    <string name="textNameContent">Арина Шмеркович</string>
+    <string name="textContent">Контент и помощь:</string>
+    <string name="textNamePainter">Uildrim</string>
+    <string name="textPainter">Иконка нарисована:</string>
+    <string name="textAnotherSite">Некоторые изображения элементов интерфейса и музыка: subtlepatterns.com, opengameart.org, incompetech.com</string>
+    <string name="conterTrueAnswerZero">Правильных ответов = 0</string>
+    <string name="conterTrueAnswer">Правильных ответов = </string>
+    <string name="winnerText">Вы победитель. Вопросы закончились. Возвращайтесь позже. Если желаете начать с начала, нажмите галку</string>
+    <string name="loserText">К сожалению вы ошиблись и проиграли. Если желаете начать с начала, нажмите галку</string>
+    <string name="hasntInternet">Нужен интернет</string>
+    <string name="ololoZahodiesho">Новые вопросы совсем скоро! Заходите ещё.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gameversion">1.11</string>
+    <string name="app_name">Intuitor</string>
+    <string name="play">Play</string>
+    <string name="aboutgame">About the Game</string>
+    <string name="mistake">You did a mistake!</string>
+    <string name="youAreSure">Are you sure?</string>
+    <string name="textBestResult">You\'r best result:</string>
+    <string name="textGamePlayed">Games were Played:</string>
+    <string name="textVersionGame">Game Version:</string>
+    <string name="textBankSize">Total number of questions :</string>
+    <string name="textNameProgramer">Nikolai \"BMorge\" Krylov</string>
+    <string name="textProgramer">Developer:</string>
+    <string name="textNameContent">Arina Shmerkovich</string>
+    <string name="textContent">Content and help:</string>
+    <string name="textNamePainter">Uildrim</string>
+    <string name="textPainter">Icon was drawn:</string>
+    <string name="textAnotherSite">Some interface view\'s, music: subtlepatterns.com, opengameart.org, incompetech.com</string>
+    <string name="conterTrueAnswerZero">True answers = 0</string>
+    <string name="conterTrueAnswer">True answers =</string>
+    <string name="winnerText">You is winner. Questions were ended. Try again later.  If you wont to play again, press the button</string>
+    <string name="loserText">Sorry, you did a mistake. You lost. If you wont to play again, press the button</string>
+    <string name="hasntInternet">You need the internet conection</string>
+    <string name="ololoZahodiesho">New questions will be very soon! Check back late.</string>
+</resources>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="countquestions">50</integer>  <!--количество вопросов -->
+
+    <string-array name="question1">   <!-- сам вопрос пошел -->
+        <item>Найдите гепарда.</item>    <!-- текст вопроса -->
+        <item>q1q01</item>              <!-- четыре картинки. первой указывается верный ответ всегда -->
+        <item>q1q02</item>
+        <item>q1q03</item>
+        <item>q1q04</item>
+        <item>олух. гепард он то в точках</item> <!-- послесловие. если нужно пояснение после-->
+        <item>null</item>                       <!-- Тэг вопроса. на будущее-->
+    </string-array>
+
+    <string-array name="question2">   <!-- второй вопрос пошел -->
+        <item>Какая змея не ядовитая?</item>
+        <item>q2q01</item>
+        <item>q2q02</item>
+        <item>q2q03</item>
+        <item>q2q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question3">   <!-- третий вопрос пошел -->
+        <item>Кто из них врач-нефролог?</item>
+        <item>q3q01</item>
+        <item>q3q02</item>
+        <item>q3q03</item>
+        <item>q3q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question4">   <!-- четвёртый вопрос пошел -->
+        <item>Найдите гобой.</item>
+        <item>q4q01</item>
+        <item>q4q02</item>
+        <item>q4q03</item>
+        <item>q4q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question5">   <!-- пятый вопрос пошел -->
+        <item>Что едят французы на завтрак?</item>
+        <item>q5q01</item>
+        <item>q5q02</item>
+        <item>q5q03</item>
+        <item>q5q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question6">   <!-- шестой вопрос пошел -->
+        <item>Найдите хризолит.</item>
+        <item>q6q01</item>
+        <item>q6q02</item>
+        <item>q6q03</item>
+        <item>q6q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+
+    <string-array name="question7">
+        <item>Где латте?</item>
+        <item>q7q01</item>
+        <item>q7q02</item>
+        <item>q7q03</item>
+        <item>q7q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+
+    <string-array name="question8">
+        <item>Найдите Московский Кремль.</item>
+        <item>q8q01</item>
+        <item>q8q02</item>
+        <item>q8q03</item>
+        <item>q8q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question9">
+        <item>Где изображён лук-шалот?</item>
+        <item>q9q01</item>
+        <item>q9q02</item>
+        <item>q9q03</item>
+        <item>q9q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question10">
+        <item>Найдите саранчу.</item>
+        <item>q10q01</item>
+        <item>q10q02</item>
+        <item>q10q03</item>
+        <item>q10q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question11">
+        <item>Где изображены слиперы?</item>
+        <item>q11q01</item>
+        <item>q11q02</item>
+        <item>q11q03</item>
+        <item>q11q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question12">
+        <item>Где изображена кавказская овчарка?</item>
+        <item>q12q01</item>
+        <item>q12q02</item>
+        <item>q12q03</item>
+        <item>q12q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question13">
+        <item>Где изображён орех макадамия?</item>
+        <item>q13q01</item>
+        <item>q13q02</item>
+        <item>q13q03</item>
+        <item>q13q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question14">
+        <item>Найдите тимьян.</item>
+        <item>q14q01</item>
+        <item>q14q02</item>
+        <item>q14q03</item>
+        <item>q14q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question15">
+        <item>Кто из них лазоревка?</item>
+        <item>q15q01</item>
+        <item>q15q02</item>
+        <item>q15q03</item>
+        <item>q15q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question16">
+        <item>Где изображена лютня?</item>
+        <item>q16q01</item>
+        <item>q16q02</item>
+        <item>q16q03</item>
+        <item>q16q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question17">
+        <item>Найдите джайв.</item>
+        <item>q17q01</item>
+        <item>q17q02</item>
+        <item>q17q033</item>
+        <item>q17q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question18">
+        <item>Где изображён тетерев?</item>
+        <item>q18q01</item>
+        <item>q18q02</item>
+        <item>q18q03</item>
+        <item>q18q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question19">
+        <item>Найдите флаг Норвегии.</item>
+        <item>q19q01</item>
+        <item>q19q02</item>
+        <item>q19q03</item>
+        <item>q19q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question20">
+        <item>Найдите гиацинты.</item>
+        <item>q20q01</item>
+        <item>q20q02</item>
+        <item>q20q03</item>
+        <item>q20q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question21">
+        <item>Где изображена крачка?</item>
+        <item>q21q01</item>
+        <item>q21q02</item>
+        <item>q21q03</item>
+        <item>q21q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question22">
+        <item>Найдите стиль барокко.</item>
+        <item>q22q01</item>
+        <item>q22q02</item>
+        <item>q22q03</item>
+        <item>q22q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question23">
+        <item>Где изображён гриб моховик?</item>
+        <item>q23q01</item>
+        <item>q23q02</item>
+        <item>q23q03</item>
+        <item>q23q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question24">
+    <item>Найдите выдру.</item>
+    <item>q24q01</item>
+    <item>q24q02</item>
+    <item>q24q03</item>
+    <item>q24q04</item>
+    <item>null</item>
+    <item>null</item>
+</string-array>
+
+    <string-array name="question25">
+        <item>Где находится липа?</item>
+        <item>q25q01</item>
+        <item>q25q02</item>
+        <item>q25q03</item>
+        <item>q25q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question26">
+        <item>Найдите лист тополя.</item>
+        <item>q26q01</item>
+        <item>q26q02</item>
+        <item>q26q03</item>
+        <item>q26q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question27">
+        <item>Где изображён гиббон?</item>
+        <item>q27q01</item>
+        <item>q27q02</item>
+        <item>q27q03</item>
+        <item>q27q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question28">
+        <item>Найдите осу.</item>
+        <item>q28q01</item>
+        <item>q28q02</item>
+        <item>q28q03</item>
+        <item>q28q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question29">
+        <item>Где изображено пенсне?</item>
+        <item>q29q01</item>
+        <item>q29q02</item>
+        <item>q29q03</item>
+        <item>q29q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question30">
+        <item>Найдите Нептун.</item>
+        <item>q30q01</item>
+        <item>q30q02</item>
+        <item>q30q03</item>
+        <item>q30q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question31">
+        <item>Какой праздник отмечается в Голландии?</item>
+        <item>q31q01</item>
+        <item>q31q02</item>
+        <item>q31q03</item>
+        <item>q31q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question32">
+        <item>Найдите тайгу.</item>
+        <item>q32q01</item>
+        <item>q32q02</item>
+        <item>q32q03</item>
+        <item>q32q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question33">
+        <item>Где изображён ястреб?</item>
+        <item>q33q01</item>
+        <item>q33q02</item>
+        <item>q33q03</item>
+        <item>q33q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question34">
+        <item>Найдите кету.</item>
+        <item>q34q01</item>
+        <item>q34q02</item>
+        <item>q34q03</item>
+        <item>q34q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question35">
+        <item>У какой машины тип кузова седан?</item>
+        <item>q35q01</item>
+        <item>q35q02</item>
+        <item>q35q03</item>
+        <item>q35q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question36">
+        <item>Где изображён бобслей?</item>
+        <item>q36q01</item>
+        <item>q36q02</item>
+        <item>q36q03</item>
+        <item>q36q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question37">
+        <item>Найдите холерика.</item>
+        <item>q37q01</item>
+        <item>q37q02</item>
+        <item>q37q03</item>
+        <item>q37q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question38">
+        <item>Где изображена морская корова?</item>
+        <item>q38q01</item>
+        <item>q38q02</item>
+        <item>q38q03</item>
+        <item>q38q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question39">
+        <item>Найдите катер.</item>
+        <item>q39q01</item>
+        <item>q39q02</item>
+        <item>q39q03</item>
+        <item>q39q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question40">
+        <item>Найдите шведского деда мороза.</item>
+        <item>q40q01</item>
+        <item>q40q02</item>
+        <item>q40q03</item>
+        <item>q40q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question41">
+        <item>Где изображён Дионис?</item>
+        <item>q41q01</item>
+        <item>q41q02</item>
+        <item>q41q03</item>
+        <item>q41q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question42">
+        <item>Найдите бизона.</item>
+        <item>q42q01</item>
+        <item>q42q02</item>
+        <item>q42q03</item>
+        <item>q42q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question43">
+        <item>Где изображена кошка шотландской породы?</item>
+        <item>q43q01</item>
+        <item>q43q02</item>
+        <item>q43q03</item>
+        <item>q43q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question44">
+        <item>Что в мексиканской кухне имеет название кесадилья?</item>
+        <item>q44q01</item>
+        <item>q44q02</item>
+        <item>q44q03</item>
+        <item>q44q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question45">
+        <item>Найдите национальное блюдо Израиля.</item>
+        <item>q45q01</item>
+        <item>q45q02</item>
+        <item>q45q03</item>
+        <item>q45q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question46">
+        <item>Найдите национальный костюм Китая.</item>
+        <item>q46q01</item>
+        <item>q46q02</item>
+        <item>q46q03</item>
+        <item>q46q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question47">
+        <item>Бультерьер изображён...</item>
+        <item>q47q01</item>
+        <item>q47q02</item>
+        <item>q47q03</item>
+        <item>q47q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question48">
+        <item>Где отмечается день Святого Патрика?</item>
+        <item>q48q01</item>
+        <item>q48q02</item>
+        <item>q48q03</item>
+        <item>q48q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question49">
+        <item>Найдите бруснику.</item>
+        <item>q49q01</item>
+        <item>q49q02</item>
+        <item>q49q03</item>
+        <item>q49q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="question50">
+        <item>Найдите кумкват.</item>
+        <item>q50q01</item>
+        <item>q50q02</item>
+        <item>q50q03</item>
+        <item>q50q04</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+
+</resources>

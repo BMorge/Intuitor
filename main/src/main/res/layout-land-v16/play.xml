@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conterTrueAnswerZero"
+            android:id="@+id/countView"
+            android:textSize="30sp" android:layout_centerInParent="true" android:layout_alignParentTop="true"
+            android:gravity="center_horizontal" />
+
+
+
+
+    <ImageButton android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageone"
+            android:background="@drawable/btntwo"
+            android:onClick="tapImage" android:layout_alignBottom="@+id/centralbtn"
+            android:layout_toLeftOf="@+id/centralbtn"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            />
+    <ImageButton android:layout_width="170dp" android:layout_height="100dp" android:id="@+id/imagetwo"
+                 android:background="@drawable/btntwo"
+                 android:onClick="tapImage"
+                 android:layout_alignBottom="@+id/centralbtn" android:layout_toRightOf="@+id/centralbtn"
+                 android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" />
+    <ImageButton android:layout_width="170dp" android:layout_height="100dp" android:id="@+id/imageThree"
+                 android:background="@drawable/btntwo"
+                 android:onClick="tapImage" android:layout_below="@+id/centralbtn"
+                 android:layout_toLeftOf="@+id/centralbtn"
+                 android:layout_marginRight="20dp" android:layout_marginTop="5dp"/>
+    <ImageButton android:layout_width="170dp" android:layout_height="100dp" android:id="@+id/imageFour"
+                 android:background="@drawable/btntwo"
+                 android:onClick="tapImage" android:layout_below="@+id/centralbtn"
+                 android:layout_toRightOf="@+id/centralbtn"
+                android:layout_marginLeft="20dp" android:layout_marginTop="5dp"/>
+
+
+
+
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/okbtn"
+            android:background="@drawable/okbtn"
+            android:visibility="gone"
+            android:onClick="okbtnClick"
+            android:layout_centerVertical="true" android:layout_alignRight="@+id/centralbtn"
+            android:layout_marginRight="100dp"/>
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/cancelbtn"
+            android:background="@drawable/cancelbtn"
+            android:visibility="gone"
+            android:onClick="cancelClick" android:layout_alignLeft="@id/centralbtn"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"/>
+
+    <ImageView android:layout_width="40dp" android:layout_height="40dp" android:id="@+id/lifeone"
+            android:background="@drawable/heartright" android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/heartwait"
+            android:id="@+id/Lifetwo"
+            android:layout_marginLeft="10dp"
+            android:onClick="bonusLifeClick"
+            android:layout_toRightOf="@+id/lifeone"
+            android:layout_marginTop="5dp"/>
+
+    <Button
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:id="@+id/centralbtn" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+              android:layout_marginBottom="8dp"
+              android:id="@+id/repeatquestion"
+              android:text="test"
+              android:textSize="30sp"
+              android:background="@drawable/nullscreen"/>
+
+
+
+    <RelativeLayout
+            style="@style/QusetionTheme"
+            android:background="#b0000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/questionttayout"
+            android:visibility="gone"
+            android:layout_centerInParent="true">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEXT question"
+                android:id="@+id/textquestion"
+                android:textSize="32sp" android:layout_alignParentBottom="false"
+                style="@style/QusetionTheme" android:layout_centerInParent="true" android:gravity="top|center_horizontal"
+                android:paddingTop="10dp"/>
+        <ImageButton android:layout_width="40dp" android:layout_height="40dp" android:id="@+id/okbtnfortext"
+                     android:background="@drawable/okbtn"
+                      android:onClick="okClickfromtext"
+                     android:layout_alignBottom="@+id/textquestion" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
